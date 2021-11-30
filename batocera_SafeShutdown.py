@@ -29,7 +29,7 @@ def poweroff():
 		while GPIO.input(powerPin) == GPIO.HIGH:
 			time.sleep(0.5)
 		os.system("batocera-es-swissknife --emukill")
-		os.system("shutdown -r now")
+		os.system("shutdown -h now")
 
 #blinks the LED to signal button being pushed
 def ledBlink():

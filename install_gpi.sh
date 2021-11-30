@@ -1,5 +1,5 @@
 #!/bin/bash
-filewebsite="https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master"
+filewebsite="https://raw.githubusercontent.com/nextgen-networks/retroflag-picase/main"
 sleep 2s
 #Step 1) Check if root--------------------------------------
 if [[ $EUID -ne 0 ]]; then

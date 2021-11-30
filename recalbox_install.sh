@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SourcePath=https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master
+SourcePath=https://raw.githubusercontent.com/nextgen-networks/retroflag-picase/main
 
 #make /boot writable---------------------------------
 sleep 2s
